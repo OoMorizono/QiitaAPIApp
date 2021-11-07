@@ -22,3 +22,4 @@ struct Constants {
        let scopes = "read_qiita+write_qiita" //このアプリにほしいQiitaAPIの権限を書いています。
        let callbackUrlScheme = "qiita-api-oauth"
 }
+//test
