@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		BF42B2D227376D5200806418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42B2D127376D5200806418 /* AppDelegate.swift */; };
 		BF42B2D427376D5200806418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42B2D327376D5200806418 /* SceneDelegate.swift */; };
-		BF42B2D627376D5200806418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42B2D527376D5200806418 /* ViewController.swift */; };
 		BF42B2D927376D5200806418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF42B2D727376D5200806418 /* Main.storyboard */; };
 		BF42B2DB27376D5600806418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF42B2DA27376D5600806418 /* Assets.xcassets */; };
 		BF42B2DE27376D5600806418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF42B2DC27376D5600806418 /* LaunchScreen.storyboard */; };
 		BF42B2E627376EC200806418 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42B2E527376EC200806418 /* Constants.swift */; };
+		BFCE6D1427378F73003B4C28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE6D1327378F73003B4C28 /* LoginViewController.swift */; };
+		BFCE6D162737B205003B4C28 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE6D152737B205003B4C28 /* UserViewController.swift */; };
+		BFCE6D182737B629003B4C28 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE6D172737B629003B4C28 /* User.swift */; };
+		BFCE6D1A2737BEDC003B4C28 /* MyArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE6D192737BEDC003B4C28 /* MyArticle.swift */; };
+		BFCE6D1D2737CA17003B4C28 /* SearchTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE6D1C2737CA17003B4C28 /* SearchTagViewController.swift */; };
+		BFCE6D1F2737CBB4003B4C28 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE6D1E2737CBB4003B4C28 /* Article.swift */; };
+		BFCE6D212737D04D003B4C28 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE6D202737D04D003B4C28 /* WebViewController.swift */; };
+		ED24D4E6DB3240635CDB8814 /* Pods_QittaAPIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F8B6A97B4CD7D4CDC7690A /* Pods_QittaAPIApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CFECC6A53006A6F43735775 /* Pods-QittaAPIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QittaAPIApp.release.xcconfig"; path = "Target Support Files/Pods-QittaAPIApp/Pods-QittaAPIApp.release.xcconfig"; sourceTree = "<group>"; };
+		3CD7EAF596AFF38CC046EEEA /* Pods-QittaAPIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QittaAPIApp.debug.xcconfig"; path = "Target Support Files/Pods-QittaAPIApp/Pods-QittaAPIApp.debug.xcconfig"; sourceTree = "<group>"; };
+		43F8B6A97B4CD7D4CDC7690A /* Pods_QittaAPIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QittaAPIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF42B2CE27376D5200806418 /* QittaAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QittaAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF42B2D127376D5200806418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF42B2D327376D5200806418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF42B2D527376D5200806418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF42B2D827376D5200806418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF42B2DA27376D5600806418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF42B2DD27376D5600806418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF42B2DF27376D5600806418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF42B2E527376EC200806418 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BFCE6D1327378F73003B4C28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = /Users/morizonoou/camp/swift/QittaAPIApp/QittaAPIApp/LoginViewController.swift; sourceTree = "<absolute>"; };
+		BFCE6D152737B205003B4C28 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		BFCE6D172737B629003B4C28 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFCE6D192737BEDC003B4C28 /* MyArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArticle.swift; sourceTree = "<group>"; };
+		BFCE6D1C2737CA17003B4C28 /* SearchTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagViewController.swift; sourceTree = "<group>"; };
+		BFCE6D1E2737CBB4003B4C28 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		BFCE6D202737D04D003B4C28 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED24D4E6DB3240635CDB8814 /* Pods_QittaAPIApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F0DEF129725DEE2775B32E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CD7EAF596AFF38CC046EEEA /* Pods-QittaAPIApp.debug.xcconfig */,
+				2CFECC6A53006A6F43735775 /* Pods-QittaAPIApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF42B2C527376D5100806418 = {
 			isa = PBXGroup;
 			children = (
 				BF42B2D027376D5200806418 /* QittaAPIApp */,
 				BF42B2CF27376D5200806418 /* Products */,
+				7F0DEF129725DEE2775B32E2 /* Pods */,
+				E7208ECE581D4100476D7507 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +86,38 @@
 		BF42B2D027376D5200806418 /* QittaAPIApp */ = {
 			isa = PBXGroup;
 			children = (
-				BF42B2D127376D5200806418 /* AppDelegate.swift */,
-				BF42B2D327376D5200806418 /* SceneDelegate.swift */,
-				BF42B2D527376D5200806418 /* ViewController.swift */,
-				BF42B2E527376EC200806418 /* Constants.swift */,
+				BFCE6D1B2737BF07003B4C28 /* Model */,
+				BFCE6D1327378F73003B4C28 /* LoginViewController.swift */,
 				BF42B2D727376D5200806418 /* Main.storyboard */,
+				BFCE6D202737D04D003B4C28 /* WebViewController.swift */,
+				BFCE6D1C2737CA17003B4C28 /* SearchTagViewController.swift */,
+				BFCE6D152737B205003B4C28 /* UserViewController.swift */,
 				BF42B2DA27376D5600806418 /* Assets.xcassets */,
 				BF42B2DC27376D5600806418 /* LaunchScreen.storyboard */,
 				BF42B2DF27376D5600806418 /* Info.plist */,
 			);
 			path = QittaAPIApp;
+			sourceTree = "<group>";
+		};
+		BFCE6D1B2737BF07003B4C28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF42B2D327376D5200806418 /* SceneDelegate.swift */,
+				BF42B2D127376D5200806418 /* AppDelegate.swift */,
+				BF42B2E527376EC200806418 /* Constants.swift */,
+				BFCE6D192737BEDC003B4C28 /* MyArticle.swift */,
+				BFCE6D172737B629003B4C28 /* User.swift */,
+				BFCE6D1E2737CBB4003B4C28 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7208ECE581D4100476D7507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F8B6A97B4CD7D4CDC7690A /* Pods_QittaAPIApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF42B2E227376D5600806418 /* Build configuration list for PBXNativeTarget "QittaAPIApp" */;
 			buildPhases = (
+				D7D806533FB5D67DDEB98911 /* [CP] Check Pods Manifest.lock */,
 				BF42B2CA27376D5200806418 /* Sources */,
 				BF42B2CB27376D5200806418 /* Frameworks */,
 				BF42B2CC27376D5200806418 /* Resources */,
+				EF3FA3184C8C35DC53D09BD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +188,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D7D806533FB5D67DDEB98911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QittaAPIApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3FA3184C8C35DC53D09BD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QittaAPIApp/Pods-QittaAPIApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QittaAPIApp/Pods-QittaAPIApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QittaAPIApp/Pods-QittaAPIApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF42B2CA27376D5200806418 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF42B2D627376D5200806418 /* ViewController.swift in Sources */,
 				BF42B2D227376D5200806418 /* AppDelegate.swift in Sources */,
+				BFCE6D1D2737CA17003B4C28 /* SearchTagViewController.swift in Sources */,
+				BFCE6D1F2737CBB4003B4C28 /* Article.swift in Sources */,
+				BFCE6D212737D04D003B4C28 /* WebViewController.swift in Sources */,
+				BFCE6D1A2737BEDC003B4C28 /* MyArticle.swift in Sources */,
+				BFCE6D162737B205003B4C28 /* UserViewController.swift in Sources */,
+				BFCE6D182737B629003B4C28 /* User.swift in Sources */,
 				BF42B2D427376D5200806418 /* SceneDelegate.swift in Sources */,
+				BFCE6D1427378F73003B4C28 /* LoginViewController.swift in Sources */,
 				BF42B2E627376EC200806418 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +388,7 @@
 		};
 		BF42B2E327376D5600806418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD7EAF596AFF38CC046EEEA /* Pods-QittaAPIApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +416,7 @@
 		};
 		BF42B2E427376D5600806418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFECC6A53006A6F43735775 /* Pods-QittaAPIApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -9,6 +9,7 @@ import Foundation
 
 struct Constants {
     static let shared = Constants()
+    let service = "qiita_api_oauth"
     private init(){}
     
     let clientID = "83d5cb8e6fb4bd1d763a1eb429e068f5c430cbc8"
